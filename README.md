@@ -81,14 +81,14 @@ Problem breakdown :
 	- Load weights from subset_2 model and trained it on subset_ data.
 	- Saved the model weights
 
-          --------------train data------------------------------
+         --------------train_data------------------------------
 	- Load the same network with no weights , Freezed first 110 layers (such as 10 layers still has the pre-trained information)
 	- 30 epoch.
 	- Load weights from subset_3 model and trained it on train data.
 	- Saved the model weights
 
 	Path for code in repo ->  'Model_train_fynd.ipynb'
-	Path for subset model weights in repo --> 'model_subset/'
+	Path for subset model weights in repo --> 'model_subset/' (https://drive.google.com/drive/folders/12Zhd2LgytHEGTfnBfHQddzV0NWkoA_32?usp=sharing)
 	
 	Path for Confusion matrix in repo --> 'confusion_matrix.ipynb'
 
