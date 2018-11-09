@@ -14,11 +14,11 @@ Problem breakdown :
 	- Some clothes were without models (again different feature).
 	
 	SOLUTION: 
-	- Approach 1) -> LINK- https://github.com/qianghaowork/cut_api
+       - Approach 1) -> LINK- https://github.com/qianghaowork/cut_api
 	  Most of images have simple background and faces could be detected with good accuracy, a straightforward solution is proposed. 	  Firstly, use openCV Harr Cascades face detection. Secondly, use edges to determine the object location. 
           Thirdly, calculate naive background model and skin model to obtain the clothes and remove the background and human body
 
-        - Approach 2) Simply cropping the center part images assuming it contains most of information about the pattern attribute   
+      -Approach 2) Simply cropping the center part images assuming it contains most of information about the pattern attribute   
           of the clothes.
 	
 	Path for approches in repo --> Augmentation>
@@ -88,7 +88,9 @@ Problem breakdown :
 	- Saved the model weights
 
 	Path for code in repo ->  'Model_train_fynd.ipynb'
+	
 	Path for subset model weights in repo --> 'model_subset/'
+	
 	Path for subset model weights in repo --> 'model_subset/' (https://drive.google.com/drive/folders/12Zhd2LgytHEGTfnBfHQddzV0NWkoA_32?usp=sharing)
 	
 	Path for Confusion matrix in repo --> 'confusion_matrix.ipynb'
@@ -104,34 +106,3 @@ Problem breakdown :
 	- Made a run.py with argument parser for running the code on terminal.
 	- Provide only image path and it returns the prediction.
 
-
-
-	
-	 
-
-
-
-
-
-
-	
-
-	
-
-
-
-
-
-
-
-	
-
-
-
-
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> b3a1b6250fdd9cc992659dcc0806b2e80d4659cb
