@@ -21,7 +21,7 @@ Problem breakdown :
         - Approach 2) Simply cropping the center part images assuming it contains most of information about the pattern attribute   
           of the clothes.
 	
-	Path for approches in repo --> Augmentation>---
+	Path for approches in repo --> Augmentation>
 
 
 2) Data Selection (Approach 1 or Approach 2)
@@ -81,25 +81,17 @@ Problem breakdown :
 	- Load weights from subset_2 model and trained it on subset_ data.
 	- Saved the model weights
 
-<<<<<<< HEAD
-          --------------train data------------------------------
-=======
-         --------------train_data------------------------------
->>>>>>> b3a1b6250fdd9cc992659dcc0806b2e80d4659cb
+        --------------train_data------------------------------
 	- Load the same network with no weights , Freezed first 110 layers (such as 10 layers still has the pre-trained information)
 	- 30 epoch.
 	- Load weights from subset_3 model and trained it on train data.
 	- Saved the model weights
 
 	Path for code in repo ->  'Model_train_fynd.ipynb'
-<<<<<<< HEAD
 	Path for subset model weights in repo --> 'model_subset/'
-=======
 	Path for subset model weights in repo --> 'model_subset/' (https://drive.google.com/drive/folders/12Zhd2LgytHEGTfnBfHQddzV0NWkoA_32?usp=sharing)
->>>>>>> b3a1b6250fdd9cc992659dcc0806b2e80d4659cb
 	
 	Path for Confusion matrix in repo --> 'confusion_matrix.ipynb'
-
 
 	OBSERVATIONS:
  	
@@ -110,11 +102,7 @@ Problem breakdown :
 4) run.py 
 	
 	- Made a run.py with argument parser for running the code on terminal.
-<<<<<<< HEAD
-	- Provide only image path and returns the prediction.
-=======
 	- Provide only image path and it returns the prediction.
->>>>>>> b3a1b6250fdd9cc992659dcc0806b2e80d4659cb
 
 
 
