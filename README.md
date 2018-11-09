@@ -102,7 +102,7 @@ Problem breakdown :
 4) run.py 
 	
 	- Made a run.py with argument parser for running the code on terminal.
-	- Provide only image path and returns the prediction.
+	- Provide only image path and it returns the prediction.
 
 
 
